@@ -44,8 +44,6 @@ To run the Python program locally, please follow the steps below:
    streamlit run job_description_page.py
    ```
 
-   Replace `your_program.py` with the actual name of the program file.
-
 ## Docker Setup
 
 To run the Python program using Docker, please follow the steps below:
