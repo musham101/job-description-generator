@@ -17,9 +17,6 @@ COPY job_description_page.py .
 
 # Expose the default Streamlit port
 EXPOSE 8501
-EXPOSE 8502
-EXPOSE 8503
-EXPOSE 8504
 
 # Set the entry point for the container
 CMD ["streamlit", "run", "job_description_page.py"]
