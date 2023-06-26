@@ -14,7 +14,7 @@ To run the Python program locally, please follow the steps below:
 
 4. (Optional) Set up a virtual environment for the program. While this step is not mandatory, it is generally recommended to isolate dependencies for different projects. To set up a virtual environment, you can use a tool like `venv`. Run the following command:
 
-   ```shell
+   ```bash
    python -m venv venv
    ```
 
@@ -22,25 +22,25 @@ To run the Python program locally, please follow the steps below:
 
    - For Windows:
 
-     ```shell
+     ```bash
      venv\Scripts\activate
      ```
 
    - For macOS and Linux:
 
-     ```shell
+     ```bash
      source venv/bin/activate
      ```
 
 6. Install the required dependencies. The Python program may have a `requirements.txt` file listing the dependencies. Use the following command to install them:
 
-   ```shell
+   ```bash
    pip install -r requirements.txt
    ```
 
 7. Run the Python program using the following command:
 
-   ```shell
+   ```bash
    streamlit run job_description_page.py
    ```
 
@@ -56,7 +56,7 @@ To run the Python program using Docker, please follow the steps below:
 
 4. Build a Docker image for the Python program using the provided `Dockerfile`. Run the following command:
 
-   ```shell
+   ```bash
    docker build -t your_image_name .
    ```
 
@@ -64,7 +64,7 @@ To run the Python program using Docker, please follow the steps below:
 
 5. Once the Docker image is built, you can run a Docker container using the following command:
 
-   ```shell
+   ```bash
    docker run your_image_name
    ```
 
