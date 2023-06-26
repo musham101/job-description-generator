@@ -1,8 +1,8 @@
-# Job Description Generator using OpenAI's ChatGPT README
+#Job Description Generator using OpenAI's ChatGPT README
 
 This readme file provides instructions on how to run a Python program both locally and using Docker.
 
-## Local Setup
+##Local Setup
 
 To run the Python program locally, please follow the steps below:
 
@@ -44,7 +44,7 @@ To run the Python program locally, please follow the steps below:
    streamlit run job_description_page.py
    ```
 
-## Docker Setup
+##Docker Setup
 
 To run the Python program using Docker, please follow the steps below:
 
